@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 app = FastAPI()
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+client = Groq(api_key=os.getenv("GROQ_API_KEY", "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"))
 SYSTEM_PROMPT = "You are Clary, a helpful AI assistant."
 
 
