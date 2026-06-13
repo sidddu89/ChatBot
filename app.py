@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API = "http://localhost:8000"
+API = "http://chatbot-production-e955.up.railway.app"
 
 st.set_page_config(page_title="AskFirst · Clary", layout="wide")
 st.title("💬 AskFirst — Clary")
